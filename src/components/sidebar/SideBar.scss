@@ -1,0 +1,29 @@
+@import "../../App.scss";
+.left-sidebar {
+  div {
+    img {
+      height: 60px;
+    }
+  }
+  .scroll-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+}
+.active-link {
+  background-color: $secondary-color;
+  color: #fff;
+}
+
+.cat{
+  background-color: $primary-color;
+}
+
+.cat:hover{
+  transition: all 0.2s ease-in-out;
+  background-color: $secondary-color;
+  color: #fff;
+}

@@ -1,0 +1,37 @@
+@import "../../App.scss";
+.active-customers{
+    height: 40px;
+    background-color: $secondary-color;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    width: 100vw;
+    overflow-y: auto;
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+    scroll-behavior: smooth;
+    .pending{
+        background-color: $primary-color;
+        border-radius: 50px;
+        padding: 0 1rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .selected{
+        background-color: #fff !important;
+    }
+
+    .p-button.p-button-icon-only {
+        width: 1.6rem;
+        padding: 0.5rem 0;
+        height: 1.6rem;
+        background-color: #fff;
+        color: #000;
+    }
+    .p-button{
+        border: none !important;
+    }
+}
